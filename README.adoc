@@ -1,0 +1,42 @@
+# kotlin-talk
+Kotlin language presentation talk
+
+@tgirard12
+
+
+== Kotlin in numbers
+
+- July 2011 JetBrains unveiled Project Kotlin,
+- v1.0 => Feb 15, 2016
+- v1.1 => March 1, 2017 
+
+https://d3nmt5vlzunoa1.cloudfront.net/kotlin/files/2017/03/GitHub-Stats-1.gif
+
+- 160’000 were using Kotlin
+- 10M lines of kotlin codes in github 
+- Hundreds of StackOverflow answers;
+- Two books: Kotlin in Action and Kotlin for Android Developers;
+- 5’700 people (over 4x in one year)
+- equally strong with server-side and Android developers (roughly 50/50 divide)
+
+https://blog.jetbrains.com/kotlin/2017/03/kotlin-1-1/
+
+== Kotlin links
+
+- http://kotlinlang.org/
+- https://github.com/jetbrains/kotlin
+
+- http://try.kotlinlang.org/
+
+- https://kotlinlang.slack.com
+- https://fabiomsr.github.io/from-java-to-kotlin/
+- https://kotlin.link/
+
+== Other links
+
+https://blog.jetbrains.com/kotlin/2011/08/why-jetbrains-needs-kotlin/
+
+https://kotlinlang.org/docs/reference/comparison-to-java.html
+
+https://kotlinlang.org/docs/reference/comparison-to-scala.html
+
