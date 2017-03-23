@@ -1,3 +1,3 @@
-include ':talk'
+include ':talk', ':android'
 rootProject.name = 'kotlin-talk'
 
