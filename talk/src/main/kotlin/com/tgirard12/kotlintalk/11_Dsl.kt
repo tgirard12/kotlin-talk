@@ -62,12 +62,12 @@ ${signingConfigsList.joinToString(separator = "\n", prefix = "", postfix = "")}
 
 @AndroidDslMarker
 class DefaultConfiguration {
-    var applicationId: String = ""     // "io.tabmo.manager"
-    var minSdkVersion: Int = -1             // android_minSdkVersion
-    var targetSdkVersion: Int = -1          // android_targetSdkVersion
-    var versionCode: Int = -1               // buildVersionCode()
-    var versionName: String? = null                 //  version
-    var testInstrumentationRunner: String? = null // "android.support.test.runner.AndroidJUnitRunner"
+    var applicationId: String = ""
+    var minSdkVersion: Int = -1
+    var targetSdkVersion: Int = -1
+    var versionCode: Int = -1
+    var versionName: String? = null
+    var testInstrumentationRunner: String? = null
 
     override fun toString(): String = """defaultConfig {
         applicationId "$applicationId"
@@ -96,38 +96,17 @@ class SigningConfig(val name: String) {
 
 fun main(args: Array<String>) {
 
-    val android = android {
-        compileSdkVersion = 25
-        buildToolsVersion = "25.0.3"
+    //val android =
 
-        defaultConfig {
-            applicationId = "com.tgirard12.kotlintalk"
-            minSdkVersion = 25
-            targetSdkVersion = 19
-            versionCode = 1
-            versionName = "1-snapshot"
-        }
-        signingConfigs {
-            debug {
-                storeFile = "debug.keystore"
-            }
-            release {
-                storeFile = "release.keystore"
-                keyPassword = "password"
-                keyAlias = "alias"
-                storePassword = "password"
-            }
-            signingConfig("test") {
-                storeFile = "test.keystore"
-            }
-        }
-    }
-    println(android)
+
+    //println(android)
+
 
     /*
 https://github.com/gradle/gradle-script-kotlin/blob/master/samples/hello-android/build.gradle.kts
     */
 }
+
 
 fun android(f: Android.() -> Unit): Android = Android().apply(f)
 
